@@ -1,0 +1,7 @@
+/ruby
+/.serverless
+/.bundle
+/vendor/bundle
+/vendor/cache
+/packaging
+/serverless-ruby
