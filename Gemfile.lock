@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     actionview (5.2.0)
       activesupport (= 5.2.0)
@@ -47,7 +48,7 @@ GEM
     jsonapi-renderer (0.2.0)
     jsonapi-serializable (0.3.0)
       jsonapi-renderer (~> 0.2.0)
-    jsonapi_compliable (1.0.0.alpha.1)
+    jsonapi_compliable (1.0.alpha.2)
       dry-types (~> 0.13)
       jsonapi-serializable (~> 0.3.0)
       jsonapi_errorable (~> 0.9)
@@ -77,6 +78,7 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rake (12.3.1)
     sqlite3 (1.3.13)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
@@ -87,8 +89,9 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-  jsonapi_compliable (>= 1.0.alpha.1)
+  jsonapi_compliable (>= 1.0.alpha.2)
   kaminari
+  rake
   sqlite3
 
 BUNDLED WITH
